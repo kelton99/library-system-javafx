@@ -17,7 +17,6 @@ public class Main extends Application {
 
         scene = new Scene(loadFXML("Primary"));
         primaryStage.setScene(scene);
-        primaryStage.setResizable(false);
         primaryStage.setTitle("Library System");
         primaryStage.show();
 

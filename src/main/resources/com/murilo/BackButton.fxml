@@ -4,7 +4,7 @@
 
 <Button xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.murilo.BackButton"
+            fx:controller="controllers.BackButtonController"
         prefWidth="70.0"
         text="Back"
         fx:id="backButton" mnemonicParsing="false" onAction="#back"/>

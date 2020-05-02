@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.AuthorFormController"
+            prefHeight="400.0" prefWidth="600.0">
+
+
+
+    <Label text="Author ID:" styleClass="form-label" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="authorIdField" GridPane.columnIndex="1" GridPane.rowIndex="1" maxWidth="150"/>
+    <Label text="Author Name:" styleClass="form-label" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <TextField fx:id="authorNameField" GridPane.columnIndex="1" GridPane.rowIndex="2" maxWidth="150" />
+    <Label text="Author Fname:" styleClass="form-label" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    <TextField fx:id="authorFnameField" GridPane.columnIndex="1" GridPane.rowIndex="3" maxWidth="150" />
+
+</AnchorPane>
